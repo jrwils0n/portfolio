@@ -9,7 +9,14 @@
     Joshua Wilson | Game development portfolio
   </title>
 
-  <meta name="description" content="Add small description of yourself.">
+  <meta name="description" content="I am a game programmer based in the North East of England. 
+  I graduated from Northumbria University studying Computer Science 
+  with Games Development, where I gained most of my knowledge and 
+  understanding of game development and C++ skills completing University projects. 
+
+  I am a hardworking person who likes to learn new skills and take 
+  on challenges. I also work well as part of a team and am willing to 
+  relocate and commute.">
   <meta name="keywords" content="Joshua Wilson Video Game Programmer Programming Portfolio C++ Unreal Engine" />
   <link rel="stylesheet" href="index.css" />
 </head>
@@ -22,8 +29,8 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
@@ -41,7 +48,36 @@
 
   <main role="main">
 
-    <!-- ***** Work ***** -->
+  <!-- ***** About ***** -->
+
+  <section class="about" id="about">
+    <div class="row">
+      <h2>About Me</h2>
+      <div class="about__content">
+        <div class="about__text">
+          <p>
+            I am a game programmer based in the North East of England. 
+            I graduated from Northumbria University studying Computer Science 
+            with Games Development, where I gained most of my knowledge and 
+            understanding of game development and C++ skills completing University projects. 
+          </p>
+          <p>
+            I am a hardworking person who likes to learn new skills and take 
+            on challenges. I also work well as part of a team and am willing to 
+            relocate and commute.
+          </p>
+          <a href="https://drive.google.com/file/d/1mNbInGfqOmON28Nl33M9ZdjMcv7GsgM0/view?usp=share_link" class="btn">My CV</a>
+        </div>
+
+        <div class="about__photo-container">
+          <!-- Add a nice photo of yourself -->
+          <img class="about__photo" src="./images/josh_wilson.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ***** Projects ***** -->
 
     <section class="projects" id="projects">
       <div class="row">
@@ -52,7 +88,7 @@
             <div class="project__text">
               <h3>Asteroids</h3>
               <p>
-                Created as part of a University module, I build a general purpose game engine using directX game shell and C++. I learned lots about C++ 
+                Created as part of a University module, I built a general purpose game engine using a directX game shell and C++. I learned lots about C++ 
                 throughout this moudle including hierachies, pointers, references, inheritance, object managers and messaging.
               </p>
 
@@ -93,8 +129,8 @@
               <h3>Horror game</h3>
               <p>
                 Created as part of a University group project using Unreal Engine. The project was made to fit a client's requirements and was helped 
-                contribruted by 5 team members, all having different roles. I programmed all of the menus and interactions using Unreal's blueprints 
-                aswell as helping with general programming.
+                contribruted by 5 team members. For my part, I programmed all of the menus and interactions using Unreal's blueprints 
+                as well as helping with general programming.
               </p>
 
               <div class="project__links">
@@ -112,36 +148,6 @@
       </div>
     </section>
 
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>
-              I am a game programmer based in the North East of England. 
-              I graduated from Northumbria University studying Computer Science 
-              with Games Development, where I gained most of my knowledge and 
-              understanding of game development and C++ skills completing University projects. 
-            </p>
-            <p>
-              I am a hardworking person who likes to learn new skills and take 
-              on challenges. I also work well as part of a team and am willing to 
-              relocate and commute.
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="#" class="btn">My CV</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/josh_wilson.jpg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
 
   <!-- ***** Contact ***** -->
